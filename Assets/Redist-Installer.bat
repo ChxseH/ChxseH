@@ -1,6 +1,7 @@
 @echo off
 
 
+
 ::     ██╗    ██╗ █████╗ ██████╗ ███╗   ██╗██╗███╗   ██╗ ██████╗                           
 ::     ██║    ██║██╔══██╗██╔══██╗████╗  ██║██║████╗  ██║██╔════╝                           
 ::     ██║ █╗ ██║███████║██████╔╝██╔██╗ ██║██║██╔██╗ ██║██║  ███╗                          
@@ -21,14 +22,13 @@
 
 
 
-
-:: 3/21/2021 8:45 PM 
-:: VC 2008 -> 2019, DirectX 9.0, DirectX Addon Pack, .NET 4.7.2, %localappdata%\Plutonium, & Plutonium-staging whitelist
+:: 4/24/2021 7:38 PM 
+:: VC 2010 -> 2019, DirectX 9.0, DirectX Addon Pack, .NET 4.7.2, %localappdata%\Plutonium, & Plutonium-staging whitelist
 
 :: Made by Chase (https://chse.xyz)
 :: YOU DO NOT HAVE PERMISSION TO COPY/ALTER THIS CODE IN ANY WAY.
 
-:: IF THIS SCRIPT EVER BREAKS, PLEASE DM ME ON DISCORD: https://discord.gg/HhMj7rm
+:: IF THIS SCRIPT EVER BREAKS, PLEASE DM ME ON DISCORD: https://discord.gg/Xh7cM5j6vw
 :: DO NOT DM FOR SUPPORT.
 
 
@@ -71,9 +71,10 @@ powershell -Command "(New-Object Net.WebClient).DownloadFile('https://download.m
 echo Downloading 2010...
 powershell -Command "(New-Object Net.WebClient).DownloadFile('https://download.microsoft.com/download/5/B/C/5BC5DBB3-652D-4DCE-B14A-475AB85EEF6E/vcredist_x86.exe', '2010_x86.exe')"
 powershell -Command "(New-Object Net.WebClient).DownloadFile('https://download.microsoft.com/download/3/2/2/3224B87F-CFA0-4E70-BDA3-3DE650EFEBA5/vcredist_x64.exe', '2010_x64.exe')"
-echo Downloading 2008...
-powershell -Command "(New-Object Net.WebClient).DownloadFile('https://download.microsoft.com/download/1/1/1/1116b75a-9ec3-481a-a3c8-1777b5381140/vcredist_x86.exe', '2008_x86.exe')"
-powershell -Command "(New-Object Net.WebClient).DownloadFile('https://download.microsoft.com/download/d/2/4/d242c3fb-da5a-4542-ad66-f9661d0a8d19/vcredist_x64.exe', '2008_x64.exe')"
+:: 2008 is no longer on M$'s website. 4/24/2021
+::echo Downloading 2008...
+::powershell -Command "(New-Object Net.WebClient).DownloadFile('https://download.microsoft.com/download/1/1/1/1116b75a-9ec3-481a-a3c8-1777b5381140/vcredist_x86.exe', '2008_x86.exe')"
+::powershell -Command "(New-Object Net.WebClient).DownloadFile('https://download.microsoft.com/download/d/2/4/d242c3fb-da5a-4542-ad66-f9661d0a8d19/vcredist_x64.exe', '2008_x64.exe')"
 
 :: Run VCRedist as silent
 echo [2] Installing VCRedist (This may take a while...)
@@ -93,10 +94,10 @@ echo Installing 2010 32...
 2010_x86.exe /install /quiet /norestart
 echo Installing 2010 64...
 2010_x64.exe /install /quiet /norestart
-echo Installing 2008 32...
-2008_x86.exe /install /quiet /norestart
-echo Installing 2008 64...
-2008_x64.exe /install /quiet /norestart
+::echo Installing 2008 32...
+::2008_x86.exe /install /quiet /norestart
+::echo Installing 2008 64...
+::2008_x64.exe /install /quiet /norestart
 
 
 :: DirectX unzip & run
