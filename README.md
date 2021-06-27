@@ -1,10 +1,10 @@
-### Hi there, I'm [Chase](https://chse.xyz/)! 👋
+### Hi there, I'm [Chase](https://chse.dev/)! 👋
 
 Hi, I'm Chase, a passionate self-taught web developer from the United States.
 
 - 🔭 I’m currently working on various things for the [Plutonium Project](https://plutonium.pw), [X Labs](https://xlabs.dev), and [sm²](https://sm2.gg).
 <!-- - 🌱 I’m currently learning xxx. -->
-<!-- - 💬 Ask me about anything [here](mailto:c@chse.xyz). -->
+<!-- - 💬 Ask me about anything [here](mailto:c@chse.dev). -->
 
 **Languages and Tools:**  
 

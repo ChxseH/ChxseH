@@ -25,7 +25,7 @@
 :: 5/5/2021 5:56 PM 
 :: VC 2008 -> 2019, DirectX 9.0, DirectX Addon Pack, .NET 4.7.2, %localappdata%\Plutonium, & Plutonium-staging whitelist
 
-:: Made by Chase (https://chse.xyz)
+:: Made by Chase (https://chse.dev)
 :: YOU DO NOT HAVE PERMISSION TO COPY/ALTER THIS CODE IN ANY WAY.
 
 :: IF THIS SCRIPT EVER BREAKS, PLEASE DM ME ON DISCORD: https://discord.gg/Xh7cM5j6vw
@@ -48,7 +48,7 @@ cls
 
 
 echo Redist Installer
-echo Written by Chase (https://chse.xyz)
+echo Written by Chase (https://chse.dev)
 echo This file will close when done, restart your computer after to be sure everything installed correctly.
 echo.
 
