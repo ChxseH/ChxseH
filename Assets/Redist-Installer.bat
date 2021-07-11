@@ -22,13 +22,13 @@
 
 
 
-:: 5/5/2021 5:56 PM 
-:: VC 2008 -> 2019, DirectX 9.0, DirectX Addon Pack, .NET 4.7.2, %localappdata%\Plutonium, & Plutonium-staging whitelist
+:: 6/10/2021 9:21 PM 
+:: VC 2008 -> 2019, DirectX 9.0, DirectX Addon Pack, .NET 4.7.2, %localappdata%\Plutonium, Plutonium-staging, xlabs whitelist
 
 :: Made by Chase (https://chse.dev)
 :: YOU DO NOT HAVE PERMISSION TO COPY/ALTER THIS CODE IN ANY WAY.
 
-:: IF THIS SCRIPT EVER BREAKS, PLEASE DM ME ON DISCORD: https://discord.gg/Xh7cM5j6vw
+:: IF THIS SCRIPT EVER BREAKS, PLEASE DM ME ON DISCORD: https://discord.gg/DEnZWS5gbv
 :: DO NOT DM FOR SUPPORT.
 
 
@@ -44,6 +44,7 @@ cd %temp%\Redist-Installer
 :: Create the Plutonium folder ahead of time so we can whitelist.
 md "%localappdata%\Plutonium" >nul 2>&1
 md "%localappdata%\Plutonium-staging" >nul 2>&1
+md "%localappdata%\xlabs" >nul 2>&1
 cls
 
 
@@ -56,6 +57,7 @@ echo.
 :: Do this silently since this isn't for *just* plutonium anymore.
 powershell -inputformat none -outputformat none -NonInteractive -Command Add-MpPreference -ExclusionPath "%localappdata%\Plutonium"
 powershell -inputformat none -outputformat none -NonInteractive -Command Add-MpPreference -ExclusionPath "%localappdata%\Plutonium-staging"
+powershell -inputformat none -outputformat none -NonInteractive -Command Add-MpPreference -ExclusionPath "%localappdata%\xlabs"
 cd %temp%\Redist-Installer
 :: Grab redists
 echo [1] Downloading Redists (This may take a while...)
