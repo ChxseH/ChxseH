@@ -1,12 +1,12 @@
 ### Hi there, I'm [Chase](https://chse.dev/)! 👋
 
-<!-- Hi, I'm Chase, a passionate self-taught web developer from the United States. -->
+<!-- 
+Hi, I'm Chase, a passionate self-taught web developer from the United States.
 
-<!-- - 🔭 I’m currently working on various things for the [Plutonium Project](https://plutonium.pw), [X Labs](https://xlabs.dev), and [sm²](https://sm2.gg). -->
-<!-- - 🌱 I’m currently learning xxx. -->
-<!-- - 💬 Ask me about anything [here](mailto:c@chse.dev). -->
+- 🔭 I’m currently working on various things for xxx.
+- 🌱 I’m currently learning xxx.
+- 💬 Ask me about anything [here](mailto:).
 
-<!--
  **Languages and Tools:**  
 
 *NOTE: Top languages don't indicate my skill level, it's just a GitHub metric of languages I have the most code for on GitHub.*
